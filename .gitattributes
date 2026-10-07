@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.sv linguist-language=SystemVerilog
+*.svh linguist-language=SystemVerilog
+*.xdc linguist-language=Tcl
+*.tcl linguist-language=Tcl
