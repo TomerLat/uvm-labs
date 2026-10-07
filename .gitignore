@@ -1,10 +1,16 @@
-# Vivado generated output. Keep Multiplier.xpr and Multiplier.srcs/.
+# Vivado and xsim generate these. Recreate a lab with its scripts/create_project.tcl.
+vivado/
+xsim.dir/
+.Xil/
+
 *.cache/
 *.gen/
 *.hw/
 *.ip_user_files/
 *.runs/
 *.sim/
+*.xpr
+*.lpr
 
 *.jou
 *.log
@@ -18,12 +24,11 @@
 *.bin
 *.mcs
 *.vcd
-*.lpr
 *.backup.*
 webtalk*
 
-.Xil/
-xsim.dir/
+# GUI project created before this repo had a lab layout. Sources live in multiplier/.
+/Multiplier/
 
 .DS_Store
 *.swp
